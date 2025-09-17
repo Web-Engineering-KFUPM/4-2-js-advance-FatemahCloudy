@@ -109,7 +109,7 @@ Task:
    in each block so you can see the flow of control.
 */
 console.log("----Task 6----");
-function firstItem(arr) {
+function maxItem(arr) {
   if (!Array.isArray(arr) || arr.length === 0) {
     throw new Error("Array must be non-empty.");
   }
@@ -117,7 +117,7 @@ function firstItem(arr) {
 }
 
 try {
-  const x = firstItem([]);
+  const x = maxItem([]);
 } catch (e) {
   console.log("Error: " + e);
 } finally {
