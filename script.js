@@ -78,9 +78,9 @@ Task:
 */
 console.log("----Task 4----");
 const d = new Date();
-console.log(d.getDate());
-console.log(d.getMonth());
-console.log(d.getFullYear());
+console.log("Day: " + d.getDate());
+console.log("Month: " + d.getMonth());
+console.log("Year: " + d.getFullYear());
 
 // ============================================================
 // TODO-5: ARRAY + SPREAD — find MIN and MAX from 10 numbers
