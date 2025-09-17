@@ -60,6 +60,12 @@ Task:
 1) Create a String object or plain string.
 2) Use .charAt(index) and .length to output characters and size.
 */
+console.log("----Task 3----");
+const str = "Hello World";
+console.log(str.length);
+for (let i = 0; i < str.length; i++) {
+   console.log(str.charAt(i));
+}
 
 // ===================================
 // TODO-4: DATE — day, month, and year
